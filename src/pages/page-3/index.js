@@ -25,6 +25,7 @@ function Page3() {
   const [videoArray, setVideoArray] = useState(INTERVIEW_VIDEOS);
   const [ref, inView] = useInView();
   const [inViewControl, setInViewControl] = useState(false);
+  const [inViewVideoControl, setInViewVideoControl] = useState(false);
   let currentPlay = document.getElementById("current-play");
 
   const changeArrayIndex = async () => {
@@ -42,17 +43,18 @@ function Page3() {
   };
   useEffect(() => {
     let currentPlay = document.getElementById("current-play");
-    if (currentPlay !== null && inView) {
+    if (currentPlay !== null && inViewVideoControl) {
       currentPlay.play();
-    } else if (currentPlay !== null && !inView) {
+    } else {
       currentPlay.pause();
     }
-  }, [currentPlay, inViewControl]);
+  }, [currentPlay, inViewVideoControl]);
 
   useEffect(() => {
-    if (inView && !inViewControl) {
+    if (inView) {
       setInViewControl(true);
     }
+    setInViewVideoControl(inView);
   }, [inView]);
 
   return (
