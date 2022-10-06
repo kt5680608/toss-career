@@ -45,7 +45,7 @@ function Page3() {
     let currentPlay = document.getElementById("current-play");
     if (currentPlay !== null && inViewVideoControl) {
       currentPlay.play();
-    } else {
+    } else if (currentPlay !== null && !inViewVideoControl) {
       currentPlay.pause();
     }
   }, [currentPlay, inViewVideoControl]);
