@@ -24,6 +24,7 @@ import {
 function Page3() {
   const [videoArray, setVideoArray] = useState(INTERVIEW_VIDEOS);
   const [ref, inView] = useInView();
+  const [videoFlag, setVideoFlag] = useState(false);
   const [inViewControl, setInViewControl] = useState(false);
   const [inViewVideoControl, setInViewVideoControl] = useState(false);
   let currentPlay = document.getElementById("current-play");
@@ -40,6 +41,7 @@ function Page3() {
       ...videoArray.filter((_, index) => index !== 0),
       tmpVideo,
     ]);
+    setVideoFlag(!videoFlag);
   };
   useEffect(() => {
     let currentPlay = document.getElementById("current-play");
@@ -48,7 +50,7 @@ function Page3() {
     } else if (currentPlay !== null && !inViewVideoControl) {
       currentPlay.pause();
     }
-  }, [currentPlay, inViewVideoControl]);
+  }, [videoFlag, inViewVideoControl]);
 
   useEffect(() => {
     if (inView) {
