@@ -20,7 +20,7 @@
 
 > 기존 스크롤로 실행되는 애니메이션을 드래그로 실행하게 변형하였습니다.
 >
-> ![](https://velog.velcdn.com/images/kt5680608/post/4d18c821-ce7b-4c81-a1c9-fbc16aa9eba8/image.gif)
+> ![](https://velog.velcdn.com/images/kt5680608/post/9ff7cfdb-8b17-4a3d-8f6d-4b9738404e0e/image.png)
 
 ## 📔 structure
 
