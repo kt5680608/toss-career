@@ -13,7 +13,7 @@ import {
   ParallaxImage,
 } from "./style";
 
-import { BlankBox } from "../style";
+import { Spacer } from "../style";
 
 import { motion } from "framer-motion";
 
@@ -73,7 +73,7 @@ function Page5() {
                 <br />
                 아낌 없는 보상과 지원
               </TitleContent>
-              <BlankBox height="80px" />
+              <Spacer height="80px" />
               <SupportContainer variants={ANIMATION_ITEM}>
                 {SUPPORT_CONTENTS.map((item) => {
                   return (
@@ -84,7 +84,7 @@ function Page5() {
                   );
                 })}
               </SupportContainer>
-              <BlankBox height="80px" />
+              <Spacer height="80px" />
               <MoreDetailButton
                 variants={ANIMATION_ITEM}
                 onClick={() => {

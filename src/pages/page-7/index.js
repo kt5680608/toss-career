@@ -14,12 +14,12 @@ import {
 
 import { EVENT_CONTENTS } from "../../assets";
 
-import { BlankBox } from "../style";
+import { Spacer } from "../style";
 function Page7() {
   return (
     <PageSection>
       <MainContainer>
-        <BlankBox height="200px" />
+        <Spacer height="200px" />
         <TitleContent>
           여러분의 성장에
           <br />
@@ -39,7 +39,7 @@ function Page7() {
           })}
         </ImageList>
       </MainContainer>
-      <BlankBox height="200px" />
+      <Spacer height="200px" />
     </PageSection>
   );
 }

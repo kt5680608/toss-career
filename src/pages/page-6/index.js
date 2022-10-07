@@ -12,7 +12,7 @@ import {
   Link,
 } from "./style";
 
-import { BlankBox } from "../style";
+import { Spacer } from "../style";
 
 import {
   ANIMATION_PARENT,
@@ -41,19 +41,19 @@ function Page6() {
             여러분의 선택이 최고의 기회가 될 수 있도록 기존과 다른 합류 여정을
             제안합니다
           </TitleContent>
-          <BlankBox height="74px" />
+          <Spacer height="74px" />
           <BreakLine />
           {RECRUIT_CONTENTS.map((item) => {
             return (
               <>
-                <BlankBox height="40px" />
+                <Spacer height="40px" />
                 <RecruitContainer variants={ANIMATION_ITEM}>
                   <RecruitTitle>{item.title}</RecruitTitle>
-                  <BlankBox height="10px"></BlankBox>
+                  <Spacer height="10px"></Spacer>
                   <RecruitContent>{item.content}</RecruitContent>
                   {item?.link ? (
                     <>
-                      <BlankBox height="10px" />
+                      <Spacer height="10px" />
                       <Link
                         onClick={() => {
                           window.open(`${item?.anchor}`);
@@ -61,10 +61,10 @@ function Page6() {
                       >
                         {item.link}
                       </Link>
-                      <BlankBox height="40px" />
+                      <Spacer height="40px" />
                     </>
                   ) : (
-                    <BlankBox height="40px" />
+                    <Spacer height="40px" />
                   )}
                   <BreakLine />
                 </RecruitContainer>

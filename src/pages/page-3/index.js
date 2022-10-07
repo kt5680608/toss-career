@@ -13,7 +13,7 @@ import {
 
 import { useInView } from "react-intersection-observer";
 
-import { BlankBox } from "../style";
+import { Spacer } from "../style";
 
 import {
   INTERVIEW_VIDEOS,
@@ -131,7 +131,7 @@ function Page3() {
               코어 밸류 자세히 보기
             </CoreDetailButton>
           </MainContentContainer>
-          <BlankBox height="200px" />
+          <Spacer height="200px" />
         </>
       )}
     </MainContainer>

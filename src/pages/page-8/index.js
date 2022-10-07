@@ -16,7 +16,7 @@ import {
   AnswerSpan,
 } from "./style";
 
-import { BlankBox } from "../style";
+import { Spacer } from "../style";
 
 import { FAQ_CONTENTS } from "../../assets";
 
@@ -76,7 +76,7 @@ function Page8() {
               });
             }
           })}
-          <BlankBox height="200px" />
+          <Spacer height="200px" />
         </FaqContainer>
       </MainContainer>
     </PageSection>

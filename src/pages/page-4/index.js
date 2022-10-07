@@ -8,7 +8,7 @@ import {
   StoryImage,
 } from "./style";
 
-import { BlankBox } from "../style";
+import { Spacer } from "../style";
 
 import { useInView } from "react-intersection-observer";
 
@@ -48,7 +48,7 @@ function Page4() {
             </Paragraph>
           </TitleContent>
           <StoryImage src={TOSS_STORY_IMAGE} variants={ANIMATION_ITEM} />
-          <BlankBox height="240px" />
+          <Spacer height="240px" />
         </motion.div>
       )}
     </MainContainer>
