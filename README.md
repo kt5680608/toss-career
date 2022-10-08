@@ -1,4 +1,4 @@
-i# 2022 toss careers
+# 2022 toss careers
 
 ## 💻 site
 
