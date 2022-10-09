@@ -15,6 +15,7 @@
 - [스크롤로 동영상 제어하기 ](https://velog.io/@kt5680608/%EC%8A%A4%ED%81%AC%EB%A1%A4%EB%A1%9C-%EB%8F%99%EC%98%81%EC%83%81-%EC%A0%9C%EC%96%B4%ED%95%98%EA%B8%B0)
 - [동영상을 사용하는 컴포넌트 상태관리](https://velog.io/@kt5680608/%EB%8F%99%EC%98%81%EC%83%81%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC)
 - [버튼 클릭 애니메이션 구현하기](https://velog.io/@kt5680608/%EB%B2%84%ED%8A%BC-%ED%81%B4%EB%A6%AD-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+- [margin vs spacer](https://velog.io/@kt5680608/margin-vs-spacer)
 
 ## 📌 precautions
 
